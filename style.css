@@ -1,0 +1,99 @@
+/*Name page*/
+
+.splotches-green{
+    background-image: url(./header.png);
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 6rem;
+    font-style: oblique;
+}
+
+/*Skills page*/
+
+.mid{
+    background-image: url(./mid.png);
+}
+
+
+.text{
+    font-family: "Cormorant Garamond", serif;
+}
+
+p{
+    border-bottom: 2px solid gainsboro;
+    padding-top: 6rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    font-size: 3.6rem;
+}
+
+
+
+.head{
+    font-family: "Rouge Script", cursive;
+}
+
+.heading{
+    font-size: 2.5rem;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+    grid-template-rows: 1fr 2fr;
+    gap: 0rem;
+}
+
+
+.grid-item{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+
+.mid-container{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.content{
+    font-size: 1.5rem;
+    padding-left: 0.5rem;
+}
+
+.mid-row{
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+/*Footer*/
+
+.footer{
+    background-image: url('./footer1.png');
+}
+
+.clip-path{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 0.25fr 0.25fr 0.25fr 0.25fr;
+    gap: 0rem;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+}
+
+.reach-out{
+    grid-column: span 4;
+    font-size: 3.5rem;
+}
+
+.reach-out, .clip-path-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
